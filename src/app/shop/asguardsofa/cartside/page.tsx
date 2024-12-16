@@ -6,6 +6,7 @@ import { IoCloseCircleOutline } from 'react-icons/io5';
 
 const CartPage = () => {
   return (
+    
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-black text-white p-4">
         <div className="container mx-auto flex justify-between items-center">
@@ -15,7 +16,7 @@ const CartPage = () => {
           </Link>
         </div>
       </header>
-
+      
 <section className="bg-white py-10">
   <div className="container mx-auto px-4 flex items-center justify-center">
     <div className="flex flex-col items-center">

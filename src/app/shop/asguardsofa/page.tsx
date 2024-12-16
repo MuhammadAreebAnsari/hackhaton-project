@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import r1c1 from "@/images/imagesshop/R1C1.png"
+
 const asguardsofaPage = () => {
   return (
     <div className="container mx-auto px-4">
@@ -15,7 +16,8 @@ const asguardsofaPage = () => {
       <section className="grid grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
           <Image
-             src="/image/s2p1c1r1.png"
+            //  src="/image/s2p1c1r1.png"
+            src={r1c1}
             alt="Product 1"
             width={150}
             height={150}
@@ -216,14 +218,7 @@ const asguardsofaPage = () => {
           </div>
         </div>
       </section>
-
-
-
-
-
-
     </div>
   );
-};
-
-// export default asguardsofaPage;
+}
+ export default asguardsofaPage;
